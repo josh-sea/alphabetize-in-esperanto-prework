@@ -29,10 +29,10 @@ def alphabetize(array)
 # ]
 
   solution = array.sort_by do |i|
-    #i is word level
+    #i is element level
 #    binding.pry
     i.split('').map do |j|
-      #j is letter
+      #j is word
 #   binding.pry
      esp_array.index(j)
     end
