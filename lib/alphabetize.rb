@@ -2,7 +2,7 @@ require 'pry'
 def alphabetize(array)
   # code here
   esp_array = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split('')
-  #binding.pry
+  binding.pry
 #   ["a",
 # "b",
 # "c",
