@@ -9,5 +9,4 @@ def alphabetize(array)
     end
   end
 sorted
-  end
 end
