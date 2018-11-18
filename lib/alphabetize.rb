@@ -28,8 +28,12 @@ def alphabetize(array)
 # "ŝ",
 # ]
 
-  array.sort_by do |word|
-    word.split.map do |letter|
+  solution = array.sort_by do |i|
+    #i is word level
+    binding.pry
+    word.split.map do |j|
+      #j is letter
+   binding.pry
       esperanto_alph_array.index(letter)
     end
   end
