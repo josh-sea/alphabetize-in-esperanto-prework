@@ -31,7 +31,7 @@ def alphabetize(array)
   solution = array.sort_by do |i|
     #i is word level
 #    binding.pry
-    i.split.map do |j|
+    i.split('').map do |j|
       #j is letter
 #   binding.pry
      esp_array.index(j)
