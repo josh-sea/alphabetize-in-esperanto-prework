@@ -33,7 +33,7 @@ def alphabetize(array)
 #    binding.pry
     i.split.map do |j|
       #j is letter
-   binding.pry
+#   binding.pry
      esp_array.index(j)
     end
   end
