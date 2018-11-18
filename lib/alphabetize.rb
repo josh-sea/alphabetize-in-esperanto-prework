@@ -4,10 +4,10 @@ def alphabetize(array)
   esp_array = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split
   binding.pry
   sort = array.sort_by do |word|
-  word.split('').map do |letter|
-    esperanto_alph_array.index(letter)
+    word.split.map do |letter|
+      esperanto_alph_array.index(letter)
+    end
   end
-   end
 sorted
-end
+  end
 end
