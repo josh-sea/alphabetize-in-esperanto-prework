@@ -3,7 +3,7 @@ def alphabetize(array)
   # code here
   esp_array = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split
   binding.pry
-  sort = arr.sort_by do |word|
+  sort = array.sort_by do |word|
   word.split('').map do |letter|
     esperanto_alph_array.index(letter)
   end
