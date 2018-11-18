@@ -34,7 +34,8 @@ def alphabetize(array)
     word.split.map do |j|
       #j is letter
    binding.pry
-      esperanto_alph_array.index(letter)
+     esp_array.index(j)
     end
   end
+  solution
 end
