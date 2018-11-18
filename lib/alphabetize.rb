@@ -28,10 +28,9 @@ def alphabetize(array)
 # "ŝ",
 # ]
 
-  sort = array.sort_by do |word|
+  array.sort_by do |word|
     word.split.map do |letter|
       esperanto_alph_array.index(letter)
     end
   end
-sorted
 end
