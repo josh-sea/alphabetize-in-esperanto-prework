@@ -30,7 +30,7 @@ def alphabetize(array)
 
   solution = array.sort_by do |i|
     #i is word level
-    binding.pry
+#    binding.pry
     word.split.map do |j|
       #j is letter
    binding.pry
